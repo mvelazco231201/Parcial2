@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <script src="js/Producto.js"></script>
+    <script src="js/Estructura.js"></script>
+    <script src="js/Lista simple.js"></script>
+    <title>Inventario</title>
+</head>
+<body>
+    <h1>
+        Control de Inventario
+    </h1>
+    <div id="App" class="container">
+       <div class="form-group">
+           <label for="txtNombre">Nombre: </label>
+           <input type="text" id="txtNombre" />
+       </div>
+       <div class="form-group">
+           <label for="txtDescripcion">Descripcion: </label>
+           <input type="text" id="txtDescripcion"/>
+       </div>
+       <div class="form-group">
+           <label for="txtCantidad">Cantidad: </label>
+           <input type="number" id="txtCantidad"/>
+       </div>
+       <div class="form-group">
+           <label for="txtCosto">Costo: </label>
+           <input type="number" id="txtCosto"/>
+       </div>
+       <div class="form-group">
+           <button id="btnAgregar" type="button" class="btn btn-success">Agregar</button>
+           <button id="btnBuscar" type="button" class="btn btn-primary">Buscar</button>
+           <button id="btnAleatorio" type="button" class="btn btn-secondary">Aleatorio estructura</button>
+           <button id="btnLista" type="button" class="btn btn-info">Aleatorio Lista</button>
+       </div> 
+    </div>
+     <div id="details"></div>
+     <script src="js/App.js"></script>
+</body>
+</html>
